@@ -1,7 +1,6 @@
 import {Stack} from '@mui/material';
 import {categories} from '../utils/constants';
 
-// const selectedCategory = 'New';
 const SideBar = ({selectedCategory , setSelectedCategory}) =>(
     <Stack
     direction="row"
@@ -35,6 +34,5 @@ const SideBar = ({selectedCategory , setSelectedCategory}) =>(
     ))}
     </Stack>
   )
-
 
 export default SideBar
